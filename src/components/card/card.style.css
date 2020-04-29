@@ -1,0 +1,15 @@
+.card {
+  background-color: aqua;
+  border-radius: 10px;
+  /* height: 400px; */
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
